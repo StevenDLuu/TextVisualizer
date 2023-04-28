@@ -1,0 +1,19 @@
+Package: TextVisualizer
+Title: Turning Text Into Keywords
+Version: 0.0.0.9000
+Authors@R: 
+    person("Steven", "Luu", , "stevenluu@usf.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Given an input of a string of text, the user will receive a visual outlining the most common keywords that occur within that vector string. This will be a bargraph with the most commonly occuring words coming first, sorted.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports:
+    tidyverse,
+    tidytext,
+    qdap,
+    tm,
+    RWeka,
+    textdata
